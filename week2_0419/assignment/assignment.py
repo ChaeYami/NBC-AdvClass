@@ -1,3 +1,5 @@
+phone_book = {"John":"123-4567", "Jane":"234-5678" , "Max":"345-6789"}
+
 def search ():
     name = yield
     while True:
@@ -21,3 +23,11 @@ print(result) # 234-5678
 
 result = search_coroutine.send("Sarah")
 print(result) # 찾을 수 없음
+
+'''
+print
+
+123-4567
+234-5678
+찾을 수 없음
+'''
