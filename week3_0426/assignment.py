@@ -7,13 +7,14 @@ def pascal(n):
     
     else:
         before = pascal(n-1) #  이전 리스트
-        p = []
-        p.append(1) # 가장 앞에 1
+        p = [1] # 가장 앞에 1
         
         for i in range(1,m):
             p.append(before[i-1] + before[i]) 
+            
         p.append(1) # 마지막에 1
+        
         return p
 
-print(pascal(7))
+print(pascal(8)) # [1, 7, 21, 35, 35, 21, 7, 1]
 
