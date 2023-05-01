@@ -1,5 +1,5 @@
-# NBC-AdvClass
-AI 5기 선발대
+# AI 5기 선발대
+
 
 ## WEEK 1
 - 타입별 메서드
@@ -11,3 +11,7 @@ AI 5기 선발대
 - ayncio
 - pipenv을 활용한 패키지 관리
 - poetry를 활용한 패키지 관리
+
+## WEEK 3
+- 재귀의 이해
+- 클래스 심화
