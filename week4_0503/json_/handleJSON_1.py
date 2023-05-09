@@ -25,7 +25,7 @@ print
         }
 }
 
-with open('data.json') as file:
+with open('week4_0503/json_/data.json', 'w') as file:
     data = json.load(file)
     
 print(data['employee'])

@@ -1,7 +1,7 @@
 # 파이썬에서 csv 파일을 다루기 위해 모듈 import
 import csv
 
-csv_path = "sample.csv"
+csv_path = "week4_0503/csv/sample.csv"
 
 # csv를 list 자료형으로 읽기
 csv_file = open(csv_path, "r", encoding="utf-8")
